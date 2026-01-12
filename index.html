@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MiniBook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>MiniBook</h2>
+</header>
+
+<div class="container">
+
+  <div class="post">
+    <h4>Ishola</h4>
+    <p>Hello 👋 Welcome to MiniBook</p>
+    <img src="https://via.placeholder.com/400x200" alt="post image">
+    <button onclick="likePost(this)">👍 Like</button>
+  </div>
+
+  <div class="post">
+    <h4>User 2</h4>
+    <p>Check out this cool picture 😄</p>
+    <img src="https://via.placeholder.com/400x200/ff7f7f/333333" alt="post image">
+    <button onclick="likePost(this)">👍 Like</button>
+  </div>
+
+  <div class="post">
+    <h4>User 3</h4>
+    <p>Another day on MiniBook 🚀</p>
+    <img src="https://via.placeholder.com/400x200/7fbfff/333333" alt="post image">
+    <button onclick="likePost(this)">👍 Like</button>
+  </div>
+
+</div>
+
+<script>
+function likePost(btn) {
+  btn.innerText = "❤️ Liked";
+}
+</script>
+
+</body>
+</html>
